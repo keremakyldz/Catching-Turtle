@@ -1,6 +1,5 @@
 import turtle
 import random
-import time
 
 turtle_screen = turtle.Screen()
 turtle_screen.bgcolor("light blue")
@@ -24,7 +23,7 @@ time_turtle.hideturtle()
 time_turtle.color("black")
 time_turtle.penup()
 time_turtle.goto(0,234)
-time_turtle.write("Time 30",align="center",font=("Arial",24,"normal"))
+time_turtle.write("Time 10",align="center",font=("Arial",24,"normal"))
 
 countdown = 10
 #Timer Update
@@ -76,7 +75,6 @@ def delete_turtle(r):
         random_turtle()
 
 random_turtle()
-
 #Turtle that controlled by mouse
 mouse = turtle.Turtle()
 mouse.hideturtle()
